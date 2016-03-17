@@ -26,6 +26,15 @@ For example:
 ````
 will create `.lab_1.zip`, `.analyzer_1.zip`, and `solution.lab_1/` - the complete set of files to be ever shipped to students.
 
+Running the lab
+---------------
+
+A solution can be tested via `./test.py`, or `python test.py`.
+
+Run the UI via `./server.py`, or `python server.py`, and use your favorite web browser (we tested everything on Chrome) to visit [localhost:8000](http://localhost:8000). If there are any problems, you can change the port number by editing `server.py`.
+
+Creating new labs
+-----------------
 
 Each assignment *must* contain:
 
